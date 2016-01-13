@@ -1,0 +1,36 @@
+{
+  "name": "chrismatteson-agilenttraining",
+  "version": "0.1.0",
+  "author": "Chris Matteson",
+  "summary": "Proof of Concept of puppet code building a training environment in AWS",
+  "license": "Apache-2.0",
+  "source": "git://github.com/chrismatteson/agilenttraining.git",
+  "project_page": "https://github.com/chrismatteson/agilenttraining",
+  "issues_url": "https://github.com/chrismatteson/agilenttraining",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.x"
+    },
+  ],
+  "description": "Module for PoC of Training Setup",
+  "dependencies": [
+    {"name":"jriviere/windows_ad"},
+    {"name":"trlinkin/domain_membership"},
+    {"name":"ghoneycutt/dnsclient"}
+  ]
+}
