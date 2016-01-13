@@ -11,7 +11,7 @@ install Puppet Enterprise
 6) Run the script at windowstrainingla/scripts/deploy.sh
 7) Add students to the common.yaml of hiera in this format:
 
-windowstrainingla::students_hash:
+windowstraininglab::students_hash:
  testing:
  - accountname: testing
  - fullname: testing lastname
